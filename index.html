@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>potatoscrean updates</title>
+<style>:root{color-scheme:dark}body{margin:0;font-family:system-ui,sans-serif;background:#07090d;color:#f0f4fa;display:grid;place-items:center;min-height:100vh;padding:16px}
+main{max-width:520px}a{color:#84c7ff}p{color:#b6c2d3;line-height:1.5}</style></head>
+<body><main><h1>potatoscrean updates</h1>
+<p>The potatoscrean app checks <a href="latest.json">latest.json</a> here once a day and updates itself. Only versions signed with the app's original key are installed.</p>
+<p id="v"></p></main>
+<script>fetch('latest.json').then(r=>r.json()).then(m=>{document.getElementById('v').innerHTML='Latest: <strong>'+m.versionName+'</strong> &middot; <a href="'+m.url+'">download APK</a>'}).catch(()=>{})</script>
+</body></html>
