@@ -1,9 +1,9 @@
 {
-    "versionCode":  24,
-    "versionName":  "0.2.22",
-    "url":  "https://dragonoptimizer.github.io/potatoscrean-updates/potatoscrean-0.2.22.apk",
-    "sha256":  "609c9026a6e451709206a85bcc4c1fc355f2d7f7534dd53c68dd90c026fb2f70",
+    "versionCode":  25,
+    "versionName":  "0.2.23",
+    "url":  "https://dragonoptimizer.github.io/potatoscrean-updates/potatoscrean-0.2.23.apk",
+    "sha256":  "94c0393797cb22f164f6adb779428f006e4a7690c7263bf1cc6cf3156241d55e",
     "size":  3496449,
-    "notes":  "Pasting a big list is now fast (large lists stay out of the text box). Bulk import up to 40,000 entries. Prevent uninstalling switch in Settings.",
-    "published":  "2026-11-24T01:34:08Z"
+    "notes":  "Screenshots allowed, shorter text, YouTube limits, faster paste",
+    "published":  "2026-11-24T01:44:12Z"
 }
